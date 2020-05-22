@@ -2,15 +2,11 @@
 
 ##### 1.菜单图标怎么设置
 
-A：
-
     1.去后台 外观-菜单-左侧更多选项
-    2.在图标输入框输入 <i class="menu-item-icon fa fa-xxxxx"></i>
+    2.在图标输入框输入 <i class="fa fa-xxxxx"></i>
     3.其中的xxxxx替换成想要显示的图标名称
-    4.图标名称在 http://www.fontawesome.com.cn/faicons/
+    4.图标名称在 http://www.fontawesome.com.cn/faicons
     
 ##### 2.为什么没有标签页和分类页
 
-A：
-
-    1.标签和分类功能在左侧侧边栏，故不单独提供
+    标签和分类功能在左侧侧边栏，故不单独提供

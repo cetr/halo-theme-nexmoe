@@ -35,7 +35,7 @@
                     <#--                        </div>-->
                     <#else>
                         <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="${menu.url!}">
-                            ${menu.icon!'<i class="menu-item-icon fa fa-fw"></i>'}<br/>
+                            ${menu.icon!'<i class="fa fa-fw"></i>'}<br/>
                             <div class="mdui-list-item-content">${menu.name!}</div>
                         </a>
                     </#if>
