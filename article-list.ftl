@@ -33,7 +33,7 @@
                     <#list post.categories as category>
                         <span>
                             <a class="nexmoefont iconfont solo-category "
-                               href="{category.fullPath}">${category.name}</a>
+                               href="${category.fullPath}">${category.name}</a>
                         </span>
                     </#list>
                 </#if>
