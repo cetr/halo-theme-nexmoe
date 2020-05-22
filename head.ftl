@@ -21,11 +21,12 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
     <link rel="alternate" href="${atom_url!}" title="${blog_title!}" type="application/atom+xml">
 
-    <link rel="stylesheet" href="${theme_base!}/css/base.css"/>
+    <link rel="stylesheet" href="${theme_base!}/css/index.css"/>
     <link rel="stylesheet" href="${theme_base!}/css/font-icon.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
     <link href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//cdn.jsdelivr.net/gh/coortop/cdn@master/prism.css" rel="stylesheet">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
 </head>
