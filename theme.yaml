@@ -1,0 +1,21 @@
+#id: 主题的唯一标识
+#name: 主题名称
+#author:
+#  name: 作者名称
+#  website: 作者网站
+#description: 主题描述
+#logo: 主题 Logo
+#website: 主题网址
+#website: 主题的 Github 仓库
+#version: 版本号
+
+id: coortop_nexmoe
+name: nexmoe
+author:
+  name: 弥枳
+  website: https://blog.coor.top
+description: 移植于hexo博客hexo-theme-nexmoe主题
+logo:
+website:
+repo: https://github.com/coortop/halo-theme-nexmoe
+version: 1.0

@@ -1,0 +1,62 @@
+sns:
+  label: 社交资料
+  items:
+    twitter:
+      name: twitter
+      label: Twitter
+      type: text
+      placeholder: '只需填入 Twitter 用户名即可'
+    facebook:
+      name: facebook
+      label: Facebook
+      type: text
+      placeholder: '只需填入 Facebook 用户名即可'
+    instagram:
+      name: instagram
+      label: Instagram
+      type: text
+      placeholder: '只需填入 Instagram 用户名即可'
+    weibo:
+      name: weibo
+      label: 微博
+      type: text
+      placeholder: '只需填入微博 Id 即可'
+    email:
+      name: email
+      label: Email
+      type: text
+      placeholder: '只需填入邮箱地址即可'
+    github:
+      name: github
+      label: Github
+      type: text
+      placeholder: '只需填入 Github 用户名即可'
+    qq:
+      name: qq
+      label: QQ
+      type: text
+      placeholder: '只需填入 QQ 号即可'
+    telegram:
+      name: telegram
+      label: Telegram
+      type: text
+      placeholder: '只需填入 Telegram Id 即可'
+style:
+  label: 样式设置
+  items:
+    background:
+      name: background
+      label: 背景图片
+      type: attachment
+    post_default_picture:
+      name: post_default_picture
+      label: 文章卡片默认图片（发布文章时未设置图片时使用默认图片占位）
+      type: attachment
+other:
+  label: 其他设置
+  items:
+    beian:
+      name: beian
+      label: 备案号
+      type: text
+      placeholder: 'ICP备案号'
