@@ -21,11 +21,7 @@
         <#--                <p id="hitokoto">${blogSubtitle}</p>-->
         <#--            </div>-->
         <#--        </#if>-->
-        <#--        <#if customVars.bg??>-->
-        <div class="back-to-top iconfont solo-gotop" onclick=""></div>
-        <#--        <#else>-->
-        <#--        <div class="back-to-top1 iconfont solo-gotop" onclick=""></div>-->
-        <#--        </#if>-->
+        <div class="back-to-top iconfont solo-gotop"></div>
     </div>
 </div>
 <#include "footer.ftl">

@@ -24,7 +24,7 @@
         <#--                <p id="hitokoto">${blogSubtitle}</p>-->
         <#--            </div>-->
         <#--        </#if>-->
-        <div class="back-to-top iconfont solo-gotop" onclick=""></div>
+        <div class="back-to-top iconfont solo-gotop"></div>
     </div>
 </div>
 <#include "footer.ftl">
