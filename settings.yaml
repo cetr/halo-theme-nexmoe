@@ -55,6 +55,17 @@ style:
 other:
   label: 其他设置
   items:
+    hitokoto:
+      name: hitokoto
+      label: 页脚一言
+      type: radio
+      data-type: bool
+      default: true
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
     beian:
       name: beian
       label: 备案号

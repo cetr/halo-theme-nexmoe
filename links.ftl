@@ -14,7 +14,6 @@
 <div id="nexmoe-content">
     <div class="nexmoe-primary">
         <main id="pjax" class="fn__flex-1">
-            <#--            <#if pjax><!---- pjax {#pjax} start --&ndash;&gt;</#if>-->
             <article class="links nexmoe-py">
                 <h2>友情链接</h2>
                 <@linkTag method="list">
@@ -55,14 +54,14 @@
                 <#--                    </#if>-->
                 <#--                </#if>-->
             </article>
-            <#--            <#if pjax><!---- pjax {#pjax} end --&ndash;&gt;</#if>-->
         </main>
-
-        <#--        <#if "" != noticeBoard>-->
-        <#--            <div class="nexmoe-hitokoto">-->
-        <#--                <p id="hitokoto">${blogSubtitle}</p>-->
-        <#--            </div>-->
-        <#--        </#if>-->
+        <#if settings.hitokoto!false>
+            <div class="nexmoe-hitokoto">
+                <p id="hitokoto"></p>
+            </div>
+            <script src="https://v1.hitokoto.cn/?c=${settings.hitokoto_type!}&encode=js&select=%23hitokoto"
+                    defer></script>
+        </#if>
         <div class="back-to-top iconfont solo-gotop"></div>
     </div>
 </div>

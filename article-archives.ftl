@@ -16,13 +16,14 @@
         <main id="pjax" class="fn__flex-1">
             <#include "article-list.ftl">
         </main>
-
-        <#if "" != noticeBoard>
+        <#if settings.hitokoto!false>
             <div class="nexmoe-hitokoto">
-                <p id="hitokoto">${blogSubtitle}</p>
+                <p id="hitokoto"></p>
             </div>
+            <script src="https://v1.hitokoto.cn/?c=${settings.hitokoto_type!}&encode=js&select=%23hitokoto"
+                    defer></script>
         </#if>
-        <div class="back-to-top iconfont solo-gotop" onclick="Util.goTop()"></div>
+        <div class="back-to-top iconfont solo-gotop"></div>
     </div>
 </div>
 <#include "footer.ftl">
