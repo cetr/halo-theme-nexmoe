@@ -8,7 +8,7 @@
 
 ### 使用帮助
 
-[帮助文档](question.md)
+[帮助文档](https://github.com/coortop/halo-theme-nexmoe/blob/master/question.md)
 
 ## 预览图
-![screenshot.png](screenshot.png)
+![screenshot.png](https://cdn.jsdelivr.net/gh/coortop/halo-theme-nexmoe@master/screenshot.png)

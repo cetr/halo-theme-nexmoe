@@ -6,8 +6,8 @@
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <#--    <meta http-equiv="Cache-Control" content="no-transform"/>-->
-    <#--    <meta http-equiv="Cache-Control" content="no-siteapp"/>-->
+    <meta http-equiv="Cache-Control" content="no-transform"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
     <meta name="author" content="${user.nickname!}">
     <meta name="description" content="${meta_description!}">
@@ -29,5 +29,6 @@
     <link href="//cdn.jsdelivr.net/gh/coortop/cdn@master/prism.css" rel="stylesheet">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+    <@global.statistics />
 </head>
 </#macro>

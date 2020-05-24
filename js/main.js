@@ -24,9 +24,6 @@ var nexmoe = {
             }, scrolltime);
             return false;
         });
-    },
-    hitokoto: function () {
-
     }
 }
 $(function () {
